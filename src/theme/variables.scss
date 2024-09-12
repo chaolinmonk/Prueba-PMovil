@@ -1,0 +1,81 @@
+:root {
+	--ion-color-primary: #e4e585;
+	--ion-color-primary-rgb: 228,229,133;
+	--ion-color-primary-contrast: #000000;
+	--ion-color-primary-contrast-rgb: 0,0,0;
+	--ion-color-primary-shade: #c9ca75;
+	--ion-color-primary-tint: #e7e891;
+
+	--ion-color-secondary: #78bcd9;
+	--ion-color-secondary-rgb: 120,188,217;
+	--ion-color-secondary-contrast: #000000;
+	--ion-color-secondary-contrast-rgb: 0,0,0;
+	--ion-color-secondary-shade: #6aa5bf;
+	--ion-color-secondary-tint: #86c3dd;
+
+	--ion-color-tertiary: #2e203c;
+	--ion-color-tertiary-rgb: 46,32,60;
+	--ion-color-tertiary-contrast: #ffffff;
+	--ion-color-tertiary-contrast-rgb: 255,255,255;
+	--ion-color-tertiary-shade: #281c35;
+	--ion-color-tertiary-tint: #433650;
+
+	--ion-color-success: #72a8d5;
+	--ion-color-success-rgb: 114,168,213;
+	--ion-color-success-contrast: #000000;
+	--ion-color-success-contrast-rgb: 0,0,0;
+	--ion-color-success-shade: #6494bb;
+	--ion-color-success-tint: #80b1d9;
+
+	--ion-color-warning: #fdd835;
+	--ion-color-warning-rgb: 253,216,53;
+	--ion-color-warning-contrast: #000000;
+	--ion-color-warning-contrast-rgb: 0,0,0;
+	--ion-color-warning-shade: #dfbe2f;
+	--ion-color-warning-tint: #fddc49;
+
+	--ion-color-danger: #e64c3c;
+	--ion-color-danger-rgb: 230,76,60;
+	--ion-color-danger-contrast: #000000;
+	--ion-color-danger-contrast-rgb: 0,0,0;
+	--ion-color-danger-shade: #ca4335;
+	--ion-color-danger-tint: #e95e50;
+	
+	--ion-color-light: #fcfcfc;
+	--ion-color-light-rgb: 243,243,246;
+	--ion-color-light-contrast: #222222;
+	--ion-color-light-contrast-rgb: 0,0,0;
+	--ion-color-light-shade: #d6d6d8;
+	--ion-color-light-tint: #e7e7e7;
+
+	--ion-color-medium: #32473d;
+	--ion-color-medium-rgb: 50,71,61;
+	--ion-color-medium-contrast: #ffffff;
+	--ion-color-medium-contrast-rgb: 255,255,255;
+	--ion-color-medium-shade: #2c3e36;
+	--ion-color-medium-tint: #475950;
+
+	--ion-color-dark: #2f2f2f;
+	--ion-color-dark-rgb: 47,47,47;
+	--ion-color-dark-contrast: #ffffff;
+	--ion-color-dark-contrast-rgb: 255,255,255;
+	--ion-color-dark-shade: #292929;
+	--ion-color-dark-tint: #444444;
+
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-background-color: var(--ion-color-dark);
+    --ion-text-color: var(--ion-color-dark-contrast);
+		--ion-danger-color: var(--ion-color-dark);
+    /* Agrega más variables si lo necesitas */
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --ion-background-color:var(--ion-color-light);
+    --ion-text-color: var(--ion-color-dark-tint);
+		--ion-danger-color: var(--ion-color-dark);
+    /* Agrega más variables si lo necesitas */
+  }
+}

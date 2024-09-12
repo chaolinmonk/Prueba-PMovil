@@ -1,0 +1,16 @@
+<div class="table">
+  <ion-grid>
+    <ion-row>
+      <ion-col><strong>Evaluacion</strong></ion-col>
+      <ion-col><strong>Notas</strong></ion-col>
+      <ion-col><strong>Fecha</strong></ion-col>
+    </ion-row>
+    
+    <ion-row *ngFor="let item of data">
+      <ion-col>{{ item.Evaluacion }}</ion-col>
+      <ion-col>{{ item.Notas }}</ion-col>
+      <ion-col>{{ item.Fecha }}</ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+

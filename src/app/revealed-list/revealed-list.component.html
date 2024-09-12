@@ -1,0 +1,14 @@
+<ion-list>
+  <ion-item [button] = "true" (click)="toggleItems()">Item Principal</ion-item>
+  <!-- Sub-items que se desplegarán al hacer clic -->
+   <ion-list class="Sublist" [inset]="false" *ngIf="showItems">
+      <ion-item (click) = "goTo('/grades')" class="Sub-items" [button] = "true" *ngIf="showItems" >
+       <ion-icon slot="start" name="podium-outline"></ion-icon>
+       <ion-label>Notas</ion-label>
+      </ion-item>
+      <ion-item (click) = "goTo('/assists')" class="Sub-items" [button] = "true" *ngIf="showItems">
+        <ion-icon slot="start" name="ribbon-outline"></ion-icon>
+        <ion-label>Asistencias</ion-label>
+      </ion-item>
+    </ion-list>
+</ion-list>

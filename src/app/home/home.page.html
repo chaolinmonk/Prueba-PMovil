@@ -1,0 +1,59 @@
+<ion-content id="main-content"[fullscreen]="true">
+  <div id="schedule">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6"><strong>Asignatura</strong></ion-col>
+        <ion-col size="6"><strong>Hora</strong></ion-col>
+      </ion-row>
+  
+      <ion-row>
+        <ion-col size="6">Estadistica</ion-col>
+        <ion-col size="6">7:00 pm</ion-col>
+      </ion-row>
+  
+      <ion-row>
+        <ion-col size="6">Programación Movil</ion-col>
+        <ion-col size="6">9:10 pm</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <ion-list id = "funcList" [inset]="true" color ="danger">
+    <ion-item [button] = "true" routerLink="/subject">
+      <ion-icon name="home-outline" slot="start" color ="primary"></ion-icon>
+      <ion-label>Asignaturas</ion-label>
+    </ion-item>
+    <ion-item [button] = "true" routerLink="/qr-gen-page">
+      <ion-icon name="qr-code-outline" slot="start" color ="primary"></ion-icon>
+      <ion-label>AutoAssist</ion-label>
+    </ion-item>
+    <ion-item [button] = "true" routerLink="/subject">
+      <ion-icon name="podium-outline" slot="start" color ="primary"></ion-icon>
+      <ion-label>Notas</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="primary" class="center-icons">
+      <!-- Icono 1 -->
+      <ion-button>
+        <ion-icon slot="icon-only" name="logo-facebook"></ion-icon>
+      </ion-button>
+
+      <!-- Icono 2 -->
+      <ion-button>
+        <ion-icon slot="icon-only" name="logo-instagram"></ion-icon>
+      </ion-button>
+
+      <!-- Icono 3 -->
+      <ion-button>
+        <ion-icon slot="icon-only" name="logo-twitter"></ion-icon>
+      </ion-button>
+
+      <!-- Icono 4 -->
+      <ion-button>
+        <ion-icon slot="icon-only" name="logo-youtube"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

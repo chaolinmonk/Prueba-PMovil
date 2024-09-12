@@ -1,0 +1,24 @@
+.table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media (prefers-color-scheme: dark) {
+  ion-col {
+    --background: #1c1e22; /* Cambia el color de fondo según tus necesidades */
+    color: var(--ion-color-tertiary-contrast);
+  }
+}
+@media (prefers-color-scheme: light) {
+  ion-col {
+    --background: #e2e4e4; /* Cambia el color de fondo según tus necesidades */
+    color: var(--ion-color-light-contrast);
+  } 
+}
+

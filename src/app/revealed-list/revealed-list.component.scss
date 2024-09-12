@@ -1,0 +1,15 @@
+
+@media (prefers-color-scheme: dark) {
+    
+  .Sub-items{
+    --background: var(--ion-color-dark-shade);
+  }
+
+}
+@media (prefers-color-scheme: light) {
+    
+  .Sub-items{
+    --background: var(--ion-color-light-tint);
+  }
+
+}
